@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background: url('/images/main-banner-new.webp') center/cover no-repeat;
+    color: white;
+    padding: 80px 20px;
+    position: relative;
+    background-position:center;
+    opacity: 0.8;
+    z-index: 10;
+    height:80vh;
+    display:flex;
+    flex-direction:column;
+   justify-content: space-around
+}
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 1.2em;
+}
+.btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    width: fit-content;
+   font-weight: 500;
+   
+    
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+}
+section {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.countries-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+.countries-grid div {
+   
+   border:2px solid black;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    background-color: blue;
+   
+    border-radius: 5px;
+    height: 30vh;
+    width: 10vw;
+   
+ 
+}
+
+.info{
+    display: flex;
+     justify-content: space-between;
+}
+
+.nav{
+    background-color: blue;
+    color:white;
+    padding: 30px;
+    font-size: larger;
+    font-weight: 900;
+
+    
+}
+
+.navlink{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+
+
+.text{
+  
+     font-size: larger;
+  
+     font-weight: 900;
+     
+    
+}
+
+.photo{
+    object-fit: cover;
+    border-top-right-radius:5px  ;
+    border-top-left-radius: 5px;
+
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form input, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+form button {
+    background-color: #ff6600;
+    color: white;
+    cursor: pointer;
+}
+
+
