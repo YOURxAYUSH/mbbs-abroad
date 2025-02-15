@@ -117,5 +117,3 @@ If you have any questions or suggestions, feel free to contact us at:
 ### 🌍 Helping Students Achieve Their Dreams
 The **MBBS Abroad** website is dedicated to making your dream of studying MBBS abroad a reality. Explore now and embark on your journey toward becoming a medical professional!
 ```
-
-Feel free to customize the sections like **Contact** or **Repository URL** if they differ. Let me know if you need further adjustments!
